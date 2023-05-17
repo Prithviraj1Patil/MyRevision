@@ -1,0 +1,111 @@
+TITLE:  System Requirement Specification for Online Project Management
+
+PURPOSE:
+This system will help Employees,Project managers,Delivery managers and Stakeholders to update about executions of project going on in the organization.All beneficiaries will be able to manage resources,time effectively.
+
+Scope:
+This System allows Employees,Project Managers to overview there prescribed Projects from Project Pipeline catalogue based on their availability. Stakeholders will be able to  review project history and may able to cancel project or add requirements, place more time constraints. The System  will be able to show live Business Operation statistics trends through Customized dashboard for stakeholders.
+the system will also generate a monthly report on performance of employee and services provided by company.
+
+Functional Requirement:
+
+Employee:
+1.Any unregistered Employee or PM or DM  will be able to view different projects available, but will not be able to access the same.
+2.Employee/PM/DM can register him/her self by entering required credentials.
+3.Logged in employee/PM/DM can access the projects depending upon which projects they are assigned to.
+4.employee/PM/DM can view his/her work history and can revisit the same.
+5.Employee can raise a query and can directly connect with Project Manager for the redressal of the same.
+
+Stakeholders:
+1.Interested Stakeholder can register  by entering required credentials.
+2.Online verification of submitted documents.
+3. Stakeholder will be able request to add new project requirements to project catalogue maintained by system.  Sales Team will be able to approve or reject request  raised by Stakeholders for adding or removing project requirements from project catalogue.
+4. Monthly update of  project workflow will be sent to Stakeholders.
+5.Stakeholders can pay bill amount through secure online medium(UPI, net banking) or can opt for cash payment.
+6.Stakeholder will get detailed invoice after verification.
+7.refunds system will be there according rules and regulation of he company.
+
+Project Manager:
+1.Project Manager will able be to track and maintain stock of projects available in pipeline. Project Manager will be able to raise requests for project updation from project pipeline.
+2.Compony's, sales team will be informed well in advance about low stock  or out of stock of projects in project pipeline.
+3. Sales team will be able get details of projects of a particular Stakeholder. Sales team  will be able to cancel , reject or approve  orders been placed by stakeholder due to some Business Policies.
+Board of Directors will be able to review summary of projects been working and projects being rejected . Board of Directors will get Business insight by observing  daily operations  with the help of project lifecycle information.
+
+Delivery Manager:
+1.Delivery Manager can log into tool using his/her credentials.
+2.Delivery Manager can review the progress of project lifecycle and can communicate accordingly with the sakeholders.
+3.Delivery Manager will insure smooth and hassle free deployment of project to the stakeholder and look for any grievances of the stakeholder regarding the same.
+4.Delivery Manager will try to resolve the issues at his own level if not possible then will take the help of his team which consists of project employees and project managers.
+
+
+
+
+Non-functional Requirement:
+
+Security
+
+Registered Stakeholders will be allowed to place request for getting project on board .	
+Each stakeholder will be to access system  through authentication process.
+System will provide access to  the content , operations using Role based security (Authorization) (Permissions based on Role)
+Using SSL(Secure Socket Layers) in all transactions  which will be performed by  stakeholders.
+It would protect confidential information shared by system to stakeholder and the information Shared by stakeholder to system.
+System will automatically log of  all stakeholder after some time due to inactivity.
+System will block operations for inactive  stakeholders and would redirect for authentication.
+System  will internally maintain secure communication channel between Servers ( Web Servers, App Servers, database Server)
+Sensitive data will be always encrypted across communication.
+Using proper firewall to protect servers from out side fishing, venerable attacks is insured periodically.
+
+Reliability
+
+The system will backup business data on regular basis and will recover it in very short duration of time. To keep system operational continuos updates are maintained, continuos Administration is done to keep system operational.
+During working hours of company system will maintain same user experaince by managing load balacning .
+
+Availability
+
+	uptime:   24* 7  available
+		 99.999%
+
+Maintainability:
+
+A Commercial database software will be used to maintain System data Persistence.
+A ready-made Web Server will be installed to host online project management (Web Site) to manage server capabilities.
+IT operations team will easily monitor and configure System using Administrative tools provided by Servers. Separate environment will be maintained for system for isolation in  production, testing, and development.
+
+Portability:
+
+PDA: Portable Device Application
+System will provide portable User Interface ( HTML, CSS, JS) through which eployees will be able to access online project management tool. System can be deployed to single server, multi server, to any OS, Cloud (Azure or AWS or GCP)
+
+Accessibility:
+
+only registered stakeholders will be able to review projects after required authentication.
+Delivery manager can reject or approve  projects, requirement updation requests based on role  provided.
+Delivery manager and Board Of Directors can view daily, weekly, monthly, annual businss Growth throgh customized dashboard.
+Stakeholders will be able to see their project progress via project lifecycle graph
+
+
+Durability:
+
+System will retain stakeholders project requirements for 15 minutes  even though stakeholder loose internet connection and join again.
+System will maintain wish-list for stakeholder . stakeholder  will be able to add projects requirements from wish-list  and add to main project pipeline whenever needed.
+System will implement backup and recovery for retaining stake holders data, business operation data and business data over time.
+
+Efficiency:
+
+on peak working hours, maximum number of employees will review and work on projects, view projects with same response time. System will be able to manage all queries regarding project with isolation.
+
+Modularity:
+
+System will designed and developed using reusable, independent or dependent business scenarios in the form of modules. These modules will be loosely coupled and highly cohesive.
+System will contain CRM , Project pipeline , new project requirements pipelie, project processing lifecycle, Delivery module, membership and Roles management modules.
+
+Scalability:
+
+System will be able  to  provide  consistent user experience to stakeholder as well as staff such as employee,project manager and deliver manager irrespective of load.
+
+Safety:
+Online project management will be secure from malicious attack, fishing.
+Online project management tool functionalists are protected from outside malacious attacks with proper firewall configuration.
+Online project management tool will be always kept updated with latest anti virus software.
+Business data will be backed up periodically to ensure safety of data using periodic back up strategy. Role based security will be applied for Application data and operations accessibility.
+

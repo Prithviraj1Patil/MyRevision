@@ -1,0 +1,29 @@
+Employee:
+  1.EmId
+  2.Ename
+  3.Deptno
+  4.MgrId
+
+Project Manager:
+  1.Empid
+  2.Mgrid
+  3.Mname
+  4.Deptno
+
+
+Delivery Manager:
+  1.EmpID
+  2.mgrId
+  3.Dname
+  4.deptno
+
+Stakeholder:
+  1.sId
+  2.Sname
+
+Project:
+  1.PId
+  2.Pname
+  3.empid
+  4.MgrId
+  5.sId
